@@ -1,1 +1,2 @@
 LINUX NOTES
+Linux is an operating system diff than windows.
