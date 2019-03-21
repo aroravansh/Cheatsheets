@@ -1,2 +1,18 @@
-LINUX NOTES
-Linux is an operating system diff than windows.
+ * INTRODUCTION TO LINUX
+ - Linux is a free and open source Operating system based on the linux kernel. Linux is basically 
+   packaged in a distro. It was the first multiuser & multitasking operating system in the world.
+ - Importance of usin Linux as an OS is that it has the best price/performance ratio, it is 
+   reliable, eco-friendly, ubiquitious and most of scientific softwares are developed in it.
+ - Linux is made of 4 components. First, the human-machine interface like the input devices
+   like keyboard, mouse, display, sound, etc. Second is the hardware which includes supercomputer,
+   desktop, mobile, etc. Third is Linux Kernel or the link between the hardware & software. Last
+   is the software which is the pool of free and open source and propietary softwares. It includes
+   GUI(desktop UI, touch Ui, wearable UI), image processing, dtp, graphics,etc. 
+ - Linux distributions or linux distros is the different varities or distributions of linux kernel
+   acc to the need of the user rannging from pcs to supercomputers. Ubuntu is a popular Linux 
+   distro. They are of two types: generic distros(used generally) and task-specific distros(for a 
+   specific task). Examples of generic distro are Redhat based(Fedora, Centos, Scientific Linux)
+   and Debian based(Debian, Ubuntu). Some task specific distros are Biolinux, Bioslax. 
+ - Linux can be approached either by Graphical User Interface(GNOME, KDE) like windows, mac,
+   tablet or by Command line Interface using terminal, powershell, etc.
+ -   
