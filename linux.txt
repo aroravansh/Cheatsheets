@@ -15,4 +15,24 @@
    and Debian based(Debian, Ubuntu). Some task specific distros are Biolinux, Bioslax. 
  - Linux can be approached either by Graphical User Interface(GNOME, KDE) like windows, mac,
    tablet or by Command line Interface using terminal, powershell, etc.
+ - Basic syntax of all commands in CLI : command argument1 argument2 .... . Command is the basic 
+   work we wish to execute. All these are commands are case sensitive n mostly in lowercase. 
+ - Collection of variables collectively is called shell environment. It controls issues like 
+   appearance of shell prompt(indicates when system is ready to execute commands n give useful 
+   info), default text editor, etc. One of those variables is the execution path which is a list 
+   of dir that shell remembers, in order to automatically refer certain apps. Command for this is
+   echo $PATH to see list of dirs.
+ - Directory(dir) is a group of files or folders. They have a heirarical order termed as path.
+ - pwd: Print your Working Dir ( to see your current directory), we can go to home dir by ~.
+   We can go to a dir under home dir by : ~/dir_name $
+ - cd: change directory(to move around file system). cd.. is used to go one step up(back).
+ - ls: is to display all dir contents(equal to dir is msdos). ls-la: displays contets with details 
+   like size, permissions, etc. 
+ - find: to find a file in a dir. Syntax: find[start pt] -name file_name -print. Here, start pt is
+   from where u want to start the search. 
+ - Each file or a folder has a set of permission flags that define in a strict way, different 
+   actions that can be performed on it. For a file -rwx--- and for a dir drwx---- where r-readable
+   w-modifying and x-executable d-shows that it is dir.
+ - chmod: used to change permissions of a file or dir. Syntax: chmod [ u|g|o (+|-) (r,w,x)] [fname]
+   this is general synatax of chmod.
  -   
