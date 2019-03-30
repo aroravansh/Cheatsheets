@@ -35,4 +35,22 @@
    w-modifying and x-executable d-shows that it is dir.
  - chmod: used to change permissions of a file or dir. Syntax: chmod [ u|g|o (+|-) (r,w,x)] [fname]
    this is general synatax of chmod.
- -   
+ - chmod u+(-)w file_name to change mode to add writing from read only mode and vice versa.
+ - chmod u+(-)x is for running or executing a program or removing it. It is used everytime before
+   using the program.
+ - In case of dir u+rx is used to access the dir.
+ - rm: used to del a file
+ - cat: to view contents of a file. if u see contents in bin form Use strings command. if file is
+   too big, we use less command to stop when screen is filled. more command used for same.
+ - head and tail command to display beggning n end of file. head-3 displays 3 lines.
+ - mkdir: used to create dir
+ - rmdir: used to remove dir(if empty)
+ - rm -r -f: remove a dir (not empty). -r for del dir recursively and -f for going ahead to del.
+ - cp: used to copy a file. Syntax: cp old_name location/new_name. 
+ - cp -p -r: used to copy dir. Syntax: cp -p -r oldname/ newname/. -p for permission and -r for
+   copying recursively.
+ - mv: used to move or rename a file. mv oldname newname renames a file. mv oldname location 
+   moves a file. mv oldname location/newname moves with renaming.
+ 
+  
+ 
