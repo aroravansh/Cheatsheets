@@ -35,4 +35,10 @@
    w-modifying and x-executable d-shows that it is dir.
  - chmod: used to change permissions of a file or dir. Syntax: chmod [ u|g|o (+|-) (r,w,x)] [fname]
    this is general synatax of chmod.
- -   
+ - >: used to redirect output. cat file1>file2 merges the outputs of two files.
+ - <: redirecting input command. used to take input in one step.
+ - |: shell pipe or the pipe operator. example wc-l is used to count numb of lines in a file.
+   so cat linux.txt|wc-l prints numb of lines of the file.
+ - man: in built reference manual. man cat displays help about cat cmd.
+ - apropos: gives relevant cmd to given info like apropos pattern.
+    
