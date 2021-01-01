@@ -128,4 +128,4 @@ and UDP (User Datagram protocol)
 Application layer
 -Combines the functions of the OSI application, presentation, and
 session layers.
--Protocols involved in this layer: HTTP, FTP, SMTP etc.
+-Protocols involved in this layer: HTTP, FTP, SMTP etc
