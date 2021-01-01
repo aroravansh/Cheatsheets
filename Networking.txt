@@ -1,0 +1,131 @@
+A network can be defined as a group of computers and other devices
+connected in some ways so as to be able to exchange data.
+-Each of the devices on the network can be thought of as a node; each
+node has a unique address.
+-Addresses are numeric quantities that are easy for computers to work
+with, but not for humans to remember.
+Example: 204.160.241.98
+-Some networks also provide names that humans can more easily
+remember than numbers.
+Example: www.javasoft.com
+Different addressig modes of a network are:
+-Internet address
+Consists of 4 bytes separated by periods
+Example: 136.102.233.49
+-InterNIC Register: organization in charge of the allocation of the
+ address ranges corresponding to networks.
+ -Domain Name System (DNS)
+  Mnemonic textual addresses are provided to facilitate the manipulation
+  of internet addresses.
+  DNS servers are responsible for translating mnemonic textual Internet
+  addresses into hard numeric Internet addresses
+ -Ports
+  An IP address identifies a host machine on the Internet.
+  An IP port will identify a specific application running on an Internet host
+  machine.
+  A port is identified by a number, the port number.
+  The number of ports is not functionally limited, in contrast to serial
+  communications where only 4 ports are allowed.
+ Data Transmission
+-In modern networks, data are transferred using packet switching.
+-Messages are broken into units called packets, and sent from one
+computer to the other.
+-At the destination, data are extracted from one or more packets and
+used to reconstruct the original message.
+-Each packet has a maximum size, and consists of a header and a data
+area.
+-The header contains the addresses of the source and destination
+computers and sequencing information necessary to reassemble
+the message at the destination.
+A computer network can be categorized by their size. A computer network is mainly of four types:
+-LAN(Local Area Network)
+ Local Area Network is a group of computers connected to each other in a small area such as building, office.
+ LAN is used for connecting two or more personal computers through a communication medium such as twisted pair, coaxial cable, etc.
+ It is less costly as it is built with inexpensive hardware such as hubs, network adapters, and ethernet cables.
+ The data is transferred at an extremely faster rate in Local Area Network.
+ Local Area Network provides higher security.
+-PAN(Personal Area Network)
+Personal Area Network is a network arranged within an individual person, typically within a range of 10 meters.
+Personal Area Network is used for connecting the computer devices of personal use is known as Personal Area Network.
+Thomas Zimmerman was the first research scientist to bring the idea of the Personal Area Network.
+Personal Area Network covers an area of 30 feet.
+Personal computer devices that are used to develop the personal area network are the laptop, mobile phones, media player and play stations.
+-MAN(Metropolitan Area Network)
+A metropolitan area network is a network that covers a larger geographic area by interconnecting a different LAN to form a larger network.
+Government agencies use MAN to connect to the citizens and private industries.
+In MAN, various LANs are connected to each other through a telephone exchange line.
+The most widely used protocols in MAN are RS-232, Frame Relay, ATM, ISDN, OC-3, ADSL, etc.
+It has a higher range than Local Area Network(LAN).
+-WAN(Wide Area Network)
+A Wide Area Network is a network that extends over a large geographical area such as states or countries.
+A Wide Area Network is quite bigger network than the LAN.
+A Wide Area Network is not limited to a single location, but it spans over a large geographical area through a telephone line, fibre optic cable or satellite links.
+The internet is one of the biggest WAN in the world.
+A Wide Area Network is widely used in the field of Business, government, and education.
+Interconnection
+-Networks of low capacity may be connected together via a backbone
+network which is a network of high capacity such as a FDDI network, a
+WAN network etc.
+-LANs and WANs can be interconnected via T1 or T3 digital leased
+lines
+-According to the protocols involved, networks interconnection is
+achieved using one or several of the following devices:
+→Bridge: a computer or device that links two similar LANs based on
+the same protocol.
+→ Router: a communication computer that connects different types of
+networks using different protocols.
+→ B-router or Bridge/Router: a single device that combines both the
+functions of bridge and router.
+→ Gateway: a network device that connects two different systems, using
+direct and systematic translation between protocols.
+Protocols
+-Define the rules that govern the communications between two
+computers connected to the network.
+-Roles: addressing and routing of messages, error detection and
+recovery, sequence and flow controls etc.
+-A protocol specification consists of the syntax, which defines the kinds
+and formats of the messages exchanged, and the semantic, which
+specifies the action taken by each entity when specific events occur.
+Example: HTTP protocol for communication between web browsers
+and servers.
+The OSI (Open Systems Interconnection) Data Model
+-ISO standard for computer networks design and functioning.
+-Involves at least 7 layers, each playing a specific role when
+applications are communicating over the net.
+-During the sending process, each layer (from top to down) will add
+a specific header to the raw data.
+-At the reception, headers are eliminated conversely until the data
+arrived to the receiving application.
+Diff Layers of OSI Model:
+Physical layer: ensures a safe and efficient travel of data; consists of
+electronic circuits for data transmission etc.
+Data link layer: in charge of data encapsulation under the form of
+packets and their interpretation at the physical layer.
+Network layer: in charge of packets transmission from a source A to a
+destination B.
+Transport layer: in charge of the delivery of packets from a source A
+to a destination B
+Session layer: in charge of the management of network access.
+Presentation layer: determines the format of the data transmitted to
+applications, data compressing/decompressing, encrypting etc.
+Application layer: contains the applications which are used by the
+end-user, such as Java, Word etc.
+The TCP/IP Model
+ Consists of only 4 layers:
+ Network layer
+-Provides the same functionality as the physical, the data link and
+network layers in the OSI model.
+-Mapping between IP addresses and network physical addresses.
+-Encapsulation of IP datagrams, e.g packets, in format understandable
+by the network.
+Internet layer
+-Lies at the heart of TCP/IP.
+-Based on the Internet Protocol (IP), which provides the frame for
+transmitting data from place A to place B.
+Transport layer
+-Based on two main protocols: TCP (Transmission Control Protocol)
+and UDP (User Datagram protocol)
+Application layer
+-Combines the functions of the OSI application, presentation, and
+session layers.
+-Protocols involved in this layer: HTTP, FTP, SMTP etc.
